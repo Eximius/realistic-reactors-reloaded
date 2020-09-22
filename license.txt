@@ -1,0 +1,25 @@
+RealisticReactors mod:
+https://mods.factorio.com/mod/RealisticReactors
+by IngoKnieto, OwnlyMe under MIT
+https://opensource.org/licenses/MIT
+
+
+Geiger counter sounds based on:
+http://soundbible.com/1113-Radio-Active.html
+by Mike Koenig under CC BY 3.0
+https://creativecommons.org/licenses/by/3.0/
+
+
+Explosions sounds based on:
+https://freesound.org/people/Robinhood76/sounds/270882/
+by Robinhood76 under CC BY-NC 3.0
+https://creativecommons.org/licenses/by-nc/3.0/
+
+Atomic explosion based on:
+https://mods.factorio.com/mods/Fatmice/UraniumPower
+by Fatmice under MIT
+https://opensource.org/licenses/MIT
+
+Reactor sarcophagus graphic based on:
+https://www.artstation.com/artwork/nbPvO
+by Anthony Garcellano

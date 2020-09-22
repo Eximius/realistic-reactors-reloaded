@@ -1,0 +1,213 @@
+---------------------------------------------------------------------------------------------------
+
+version 2.18.17   (2020-09-07)
+- fixed an error during migration when also mod settings were changed
+
+---------------------------------------------------------------------------------------------------
+
+version 2.18.16   (2020-08-30)
+- just an informational update to confirm 1.0 compatibility
+
+---------------------------------------------------------------------------------------------------
+
+version 2.18.15   (2020-07-22)
+- hopefully fixed a gui error thanks to the help of arbu32
+(see: https://mods.factorio.com/mod/RealisticReactors/discussion/5f13a68c749401d0cab69759)
+
+---------------------------------------------------------------------------------------------------
+
+version 2.18.14   (2020-03-07)
+- Fixed a gui error
+- Fixed a startup error related to empty sprites
+
+---------------------------------------------------------------------------------------------------
+
+version 2.18.13   (2020-03-07)
+- Fixed low res graphics
+- Fixed a scram bug with decay heat
+- Added new light effects from Mushroom Cloud 0.18+
+
+---------------------------------------------------------------------------------------------------
+
+version 2.18.12   (2020-01-31)
+- Nuclear explosions now destroy cliffs
+- Installed a new sound system for the explosions
+- Added support for apm but i had no idea what formula to assign to neptunium
+- Ownly's formulas now yield 15% more power/efficiency (still 10% less than advertised)
+
+---------------------------------------------------------------------------------------------------
+
+version 2.17.11   (2020-01-11)
+- Reduced the pollution caused by meltdowns to adjust the increase in evolution-factor to the originally intended amount. 
+(The relation between pollution and evolution factor was changed in 0.17)
+
+---------------------------------------------------------------------------------------------------
+
+version 2.17.10   (2020-01-02)
+- Fixed a few minor bugs with the scram behavior
+
+---------------------------------------------------------------------------------------------------
+
+version 2.17.9   (2019-12-30)
+- New graphics with all kinds of glow
+- Improved performance
+
+---------------------------------------------------------------------------------------------------
+
+version 2.17.8   (2019-08-03)
+- Simplified the inventory synchronisation, since you can now make inserters ignore an entity.
+- Added complete support for Amator's Phasma
+
+---------------------------------------------------------------------------------------------------
+
+version 2.17.7   (2019-07-13)
+- Fixed a crash due to the usage of a deprecated style property
+- Polished the nuclear explosion effect
+- Some gui improvements
+- Added support for fuel categories from bob's revamp mod
+
+---------------------------------------------------------------------------------------------------
+
+version 2.17.6   (2019-07-07)
+- Fixed a crash with underground heatpipes on multiple surfaces
+
+---------------------------------------------------------------------------------------------------
+
+version 2.17.5   (2019-06-17)
+- Fixed an error with cooling towers build adjacent to each other
+- updated ODS data file: RealisticReactors_Output_2.17_IngosMode.ods (see mod folder)
+
+---------------------------------------------------------------------------------------------------
+
+version 2.xx.4	(2019-05-08)
+- Fixed a crash on servers when the server sends a message
+
+---------------------------------------------------------------------------------------------------
+
+version 2.xx.3	(2019-03-29)
+- Improved compatibility with Solarthermal Energy (reverting their changes to heat exchangers and heat pipes)
+- Fixed a crash when multiple heatpipes have been destroyed on the same tick
+
+---------------------------------------------------------------------------------------------------
+
+version 2.17.2   (2019-03-08)
+- Added custom curves for Thorium fuel cells (MadClown01's AngelBob Nuclear Extension)
+- Fixed vanilla reactor being missing after mod uninstallation
+- Fixed startup error with MadClown01's Nuclear Extension installed
+
+---------------------------------------------------------------------------------------------------
+
+version 2.16.2   (2019-03-08)
+- Added custom curves for Thorium fuel cells (MadClown01's AngelBob Nuclear Extension)
+- Fixed vanilla reactor being missing after mod uninstallation
+
+---------------------------------------------------------------------------------------------------
+
+version 2.17.1   (2019-03-03)
+- 0.17 update
+
+---------------------------------------------------------------------------------------------------
+
+version 2.0.6   (2019-03-03)
+- Fixed a crash when building heatpipes on a new surface
+- Fixed that the fluid amount signal got set to nil ("stats line 156 error")
+- Removed building smoke effect when the power of the reactor changes
+- Changed the result of Mad Clown's MOX recipe to a custom fuel cell
+- Added support for the new versions of plutonium energy
+- Fixed breeder bonus cells not being calculated correctly
+- Fixed ruin not becoming unminable after changing the setting
+- Reduced recipe costs to 3 modules instead of 5
+
+---------------------------------------------------------------------------------------------------
+
+version 2.0.5   (2019-03-02)
+- temporary 0.17 release for the forum
+
+---------------------------------------------------------------------------------------------------
+
+version 2.0.4   (2018-10-20)
+- fixed a bug that prevented the ECCS fluid from changing it's temperature
+  (as reported by AdmiralTigerclaw)
+
+---------------------------------------------------------------------------------------------------
+
+version 2.0.3   (2018-10-19)
+- Added radiation damage for non-vanilla characters
+- Initial fallout radius now depends on the fallout duration to match the radius when radiation has to be respawned 6 times
+- Default neighbour check delay is now 45 ticks
+- fixed a bug where deconstructing an entity request slot with the deconstruction planer crashed the game
+  (as reported by Speadge and Mortico)
+- fixed a bug where a reactor runnig out of fuel would crash the game
+  (as reported by hatifur)
+- fixed a problem with dynamic cooling
+
+---------------------------------------------------------------------------------------------------
+
+version 2.0.2   (2018-09-25)
+- forgot to include the russian localization by pnv25
+
+---------------------------------------------------------------------------------------------------
+
+version 2.0.1   (2018-09-25)
+- reactors can now be started and scramed with the status button in the gui
+- ownly's formulas: fixed 2 of the plutonium cells being treated as mox, increased maximum efficiency a bit
+- ingo's formulas: balanced the bonus cell output of the breeder reactor for modded fuel cells
+- optimized the neighbour check even more (now there should be no lagspikes at all)
+- fixed the position of the flames on the reactor's heatpipes
+- small bugfixes
+- added support for RealisticReactors - Utilities
+
+---------------------------------------------------------------------------------------------------
+
+version 2.0.0   (2018-09-21)
+- added breeder reactors that output additional used fuel cells
+- reactor stats (power output and efficiency) are now dynamic, depending on temperature and (as before) neighbours
+- reactor start and scram phase are now dynamic
+- added gui for monitoring (click on the interface)
+- added electric interface (energy consumption by starting phase, cooling and interface)
+- new graphics for reactors and cooling tower
+- added working lights
+- added blueprint functionality (you need a constant combinator to build the interface)
+- added a variety of configuration options
+- added more meltdown options (mushroom cloud, permanent radiation, reactor ruins, sarcophagus)
+- added fallout and radiation damage system (better armor protects better from radiation damage)
+- improved fallout clouds
+- fallout causes pollution and increases the evolution factor
+- optimized calculation of neighbours
+- fixed lagspikes, only processing a few reactors every tick
+- various performance optimizations
+- realistic reactor glow color, ruins glow too
+
+---------------------------------------------------------------------------------------------------
+
+version 1.0.5   (2018-08-15)
+- fixed error with hr version of the cooling tower
+
+---------------------------------------------------------------------------------------------------
+
+version 1.0.4   (2018-08-13)
+- replaced cooling tower picture
+  (thanks to Sigma1 for providing the graphic model)
+
+---------------------------------------------------------------------------------------------------
+
+version 1.0.3	(2018-02-18)
+- fixed incompatiblity with Factorio 0.16.24
+
+---------------------------------------------------------------------------------------------------
+
+version 1.0.2	(2018-01-17)
+- fixed incompatiblity with Angels mods (angelpetrochem).
+
+Important note: this update will brake savegames with version 1.0.1, see forum for more details 
+
+---------------------------------------------------------------------------------------------------
+
+version 1.0.1	(2018-01-15)
+- compatibility with nuclear fuel cells from other mods added
+
+---------------------------------------------------------------------------------------------------
+
+version 1.0.0	(2018-01-14)
+- initial release
+
