@@ -91,7 +91,7 @@ end
 		show_when_smoke_off = true,
 		animation =
 		{
-			filename = "__RealisticReactors__/graphics/fallout/cloud-45-frames.png",
+			filename = "__RealisticReactorsReloaded__/graphics/fallout/cloud-45-frames.png",
 			flags = { "compressed" },
 			priority = "low",
 			width = 256,
@@ -127,7 +127,7 @@ perma_radiation = {
 		random_animation_offset = true,
 		animation =
 		{
-			filename = "__RealisticReactors__/graphics/fallout/fallout_spritesheet.png",
+			filename = "__RealisticReactorsReloaded__/graphics/fallout/fallout_spritesheet.png",
 			random_animation_offset = true,
 			
 			priority = "low",
@@ -157,7 +157,7 @@ perma_radiation = {
 	if settings.startup["fallout-appearance"].value == "invisible" then
 		perma_radiation.animation = 
 		{
-			filename = "__RealisticReactors__/graphics/transparent32.png",
+			filename = "__RealisticReactorsReloaded__/graphics/transparent32.png",
 			random_animation_offset = true,
 			flags = { "compressed" },
 			priority = "low",
@@ -173,7 +173,7 @@ perma_radiation = {
 	elseif settings.startup["fallout-appearance"].value == "half-transparent" then
 		perma_radiation.animation =	
 		{
-			filename = "__RealisticReactors__/graphics/fallout/fallout_spritesheet_half.png",
+			filename = "__RealisticReactorsReloaded__/graphics/fallout/fallout_spritesheet_half.png",
 			random_animation_offset = true,
 			priority = "low",
 			width = 249,
@@ -189,7 +189,7 @@ perma_radiation = {
 elseif settings.startup["fallout-appearance"].value == "green veil" then
 		perma_radiation.animation =
 		{
-			filename = "__RealisticReactors__/graphics/fallout/fallout-green.png",
+			filename = "__RealisticReactorsReloaded__/graphics/fallout/fallout-green.png",
 			random_animation_offset = true,
 			flags = { "compressed" },
 			priority = "low",
@@ -333,12 +333,12 @@ data:extend({
 	  {
 		type = "sound",
 		name = "RR-geiger-0",
-		filename = "__RealisticReactors__/sound/geiger0.ogg",
+		filename = "__RealisticReactorsReloaded__/sound/geiger0.ogg",
 	},
 	{
 		type = "sound",
 		name = "RR-geiger-1",
-		filename = "__RealisticReactors__/sound/geiger1.ogg",
+		filename = "__RealisticReactorsReloaded__/sound/geiger1.ogg",
 	},
 	-- RR-geiger-0
 	--{
@@ -348,7 +348,7 @@ data:extend({
 	--		animations =
 	--		{
 	--			{
-	--				filename = "__RealisticReactors__/graphics/transparent32.png",
+	--				filename = "__RealisticReactorsReloaded__/graphics/transparent32.png",
 	--				priority = "low",
 	--				width = 32,
 	--				height = 32,
@@ -361,7 +361,7 @@ data:extend({
 	--		sound =
 	--		{
 	--			{
-	--				filename = "__RealisticReactors__/sound/geiger0.ogg",
+	--				filename = "__RealisticReactorsReloaded__/sound/geiger0.ogg",
 	--				volume = 0.5,
 	--				audible_distance_modifier = 0.3
 	--			},       
@@ -376,7 +376,7 @@ data:extend({
 	--		animations =
 	--		{
 	--			{
-	--				filename = "__RealisticReactors__/graphics/transparent32.png",
+	--				filename = "__RealisticReactorsReloaded__/graphics/transparent32.png",
 	--				priority = "low",
 	--				width = 32,
 	--				height = 32,
@@ -389,7 +389,7 @@ data:extend({
 	--		sound =
 	--		{
 	--			{
-	--				filename = "__RealisticReactors__/sound/geiger1.ogg",
+	--				filename = "__RealisticReactorsReloaded__/sound/geiger1.ogg",
 	--				volume = 0.5,
 	--				audible_distance_modifier = 0.3
 	--			},       
@@ -404,7 +404,7 @@ data:extend({
 			--animations =
 			--{
 			--	{
-			--		filename = "__RealisticReactors__/graphics/transparent32.png",
+			--		filename = "__RealisticReactorsReloaded__/graphics/transparent32.png",
 			--		priority = "low",
 			--		width = 32,
 			--		height = 32,
@@ -416,7 +416,7 @@ data:extend({
 			--light = {intensity = 0, size = 0},
 			--sound = 
 			--{
-				filename = "__RealisticReactors__/sound/nuclear_detonation_in_vincinity_2.ogg",
+				filename = "__RealisticReactorsReloaded__/sound/nuclear_detonation_in_vincinity_2.ogg",
 				volume = 1,
 				audible_distance_modifier = 10000     
 			--},
@@ -441,7 +441,7 @@ data:extend({
 	--			flags = { "smoke" }
 	--		},
 	--	--  {
-	--	--	filename = "__RealisticReactors__/graphics/transparent32.png",
+	--	--	filename = "__RealisticReactorsReloaded__/graphics/transparent32.png",
 	--	--	priority = "high",
 	--	--	width = 32,
 	--	--	height = 32,
@@ -630,7 +630,7 @@ data:extend({
 			animations =
 			{
 				{
-					filename = "__RealisticReactors__/graphics/explosion/LUQ.png",
+					filename = "__RealisticReactorsReloaded__/graphics/explosion/LUQ.png",
 					priority = "extra-high",
 					width = 256,
 					height = 256,
@@ -648,7 +648,7 @@ data:extend({
 			sound =
 			{
 
-				filename = "__RealisticReactors__/sound/nuclear_detonation_close_proximity.ogg",
+				filename = "__RealisticReactorsReloaded__/sound/nuclear_detonation_close_proximity.ogg",
 				volume = 1.2,
 				audible_distance_modifier = 10
 				
@@ -664,7 +664,7 @@ data:extend({
 			animations =
 			{
 				{
-					filename = "__RealisticReactors__/graphics/explosion/RUQ.png",
+					filename = "__RealisticReactorsReloaded__/graphics/explosion/RUQ.png",
 					priority = "extra-high",
 					width = 256,
 					height = 256,
@@ -681,7 +681,7 @@ data:extend({
 			smoke_slow_down_factor = 1,
 			sound = nil
 			--{
-			--	filename = "__RealisticReactors__/sound/nuclear_detonation_in_vincinity_2.ogg",
+			--	filename = "__RealisticReactorsReloaded__/sound/nuclear_detonation_in_vincinity_2.ogg",
 			--	volume = 1,
 			--	audible_distance_modifier = -100
 			--},
@@ -696,7 +696,7 @@ data:extend({
 			animations =
 			{
 				{
-					filename = "__RealisticReactors__/graphics/explosion/LLQ.png",
+					filename = "__RealisticReactorsReloaded__/graphics/explosion/LLQ.png",
 					priority = "extra-high",
 					width = 256,
 					height = 256,
@@ -721,7 +721,7 @@ data:extend({
 			--	variations =
 			--	{	
 			--		{
-			--			filename = "__RealisticReactors__/sound/nuclear_detonation_close_proximity.ogg",
+			--			filename = "__RealisticReactorsReloaded__/sound/nuclear_detonation_close_proximity.ogg",
 			--			volume = 0.5,
 			--		},
 			--	}
@@ -737,7 +737,7 @@ data:extend({
 			animations =
 			{
 				{
-					filename = "__RealisticReactors__/graphics/explosion/RLQ.png",
+					filename = "__RealisticReactorsReloaded__/graphics/explosion/RLQ.png",
 					priority = "extra-high",
 					width = 256,
 					height = 256,
@@ -762,7 +762,7 @@ data:extend({
 			--	variations =
 			--	{
 			--		{
-			--			filename = "__RealisticReactors__/sound/nuclear_detonation_close_proximity.ogg",
+			--			filename = "__RealisticReactorsReloaded__/sound/nuclear_detonation_close_proximity.ogg",
 			--			volume = 0.5
 			--		},
 			--	}
@@ -791,7 +791,7 @@ data:extend({
 		  height = 360,
 		  frame_count = 1,
 		  direction_count = 1,
-		  filename = "__RealisticReactors__/graphics/explosion/scorchmark-low.png",
+		  filename = "__RealisticReactorsReloaded__/graphics/explosion/scorchmark-low.png",
 		  variation_count = 3,
 		  scale=4,
 		  hr_version=   {
@@ -799,7 +799,7 @@ data:extend({
 			height = 720,
 			frame_count = 1,
 			direction_count = 1,
-			filename = "__RealisticReactors__/graphics/explosion/scorchmark.png",
+			filename = "__RealisticReactorsReloaded__/graphics/explosion/scorchmark.png",
 			variation_count = 3,
 			scale = 2
 			}
@@ -813,7 +813,7 @@ data:extend({
 			frame_count = 1,
 			direction_count = 1,
 			x = 880,
-			filename = "__RealisticReactors__/graphics/explosion/scorchmark-low.png",
+			filename = "__RealisticReactorsReloaded__/graphics/explosion/scorchmark-low.png",
 			variation_count = 3,
 			scale=4,
 			hr_version={
@@ -822,7 +822,7 @@ data:extend({
 				frame_count = 1,
 				direction_count = 1,
 				x = 880 * 2,
-				filename = "__RealisticReactors__/graphics/explosion/scorchmark.png",
+				filename = "__RealisticReactorsReloaded__/graphics/explosion/scorchmark.png",
 				variation_count = 3,
 				scale = 2
 				}
@@ -837,7 +837,7 @@ data:extend({
 			frame_count = 1,
 			direction_count = 1,
 			x = 440,
-			filename = "__RealisticReactors__/graphics/explosion/scorchmark-low.png",
+			filename = "__RealisticReactorsReloaded__/graphics/explosion/scorchmark-low.png",
 			variation_count = 3,
 			scale = 4,
 			hr_version={
@@ -846,7 +846,7 @@ data:extend({
 				frame_count = 1,
 				direction_count = 1,
 				x = 880,
-				filename = "__RealisticReactors__/graphics/explosion/scorchmark.png",
+				filename = "__RealisticReactorsReloaded__/graphics/explosion/scorchmark.png",
 				variation_count = 3,
 				scale = 2
 			  }

@@ -1,9 +1,9 @@
-BLUE_BACKGROUND = "__RealisticReactors__/graphics/icons/signal_blue.png"
-RED_BACKGROUND = "__RealisticReactors__/graphics/icons/signal_red_background.png"
-GREEN_BACKGROUND = "__RealisticReactors__/graphics/icons/signal_green_background.png"
-YELLOW_BACKGROUND = "__RealisticReactors__/graphics/icons/signal_yellow_background.png"
-GREY_BACKGROUND = "__RealisticReactors__/graphics/icons/signal_grey_background.png"
-ORANGE_BACKGROUND = "__RealisticReactors__/graphics/icons/signal_orange_background.png"
+BLUE_BACKGROUND = "__RealisticReactorsReloaded__/graphics/icons/signal_blue.png"
+RED_BACKGROUND = "__RealisticReactorsReloaded__/graphics/icons/signal_red_background.png"
+GREEN_BACKGROUND = "__RealisticReactorsReloaded__/graphics/icons/signal_green_background.png"
+YELLOW_BACKGROUND = "__RealisticReactorsReloaded__/graphics/icons/signal_yellow_background.png"
+GREY_BACKGROUND = "__RealisticReactorsReloaded__/graphics/icons/signal_grey_background.png"
+ORANGE_BACKGROUND = "__RealisticReactorsReloaded__/graphics/icons/signal_orange_background.png"
 
 data:extend({
 {
@@ -20,7 +20,7 @@ data:extend({
 	icons =
 	{
 	  {icon = BLUE_BACKGROUND},
-	  {icon = "__RealisticReactors__/graphics/icons/signal_core_temp.png"}
+	  {icon = "__RealisticReactorsReloaded__/graphics/icons/signal_core_temp.png"}
 	},
 	icon_size = 32,
 	subgroup = "reactor-signals",
@@ -34,7 +34,7 @@ data:extend({
 	icons =
 	{
 	  {icon = BLUE_BACKGROUND},
-	  {icon = "__RealisticReactors__/graphics/icons/signal_reactor_power_output.png"}
+	  {icon = "__RealisticReactorsReloaded__/graphics/icons/signal_reactor_power_output.png"}
 	},
 	icon_size = 32,
 	subgroup = "reactor-signals",
@@ -48,7 +48,7 @@ data:extend({
 	icons =
 	{
 	  {icon = BLUE_BACKGROUND},
-	  {icon = "__RealisticReactors__/graphics/icons/signal_reactor_electric_power.png"}
+	  {icon = "__RealisticReactorsReloaded__/graphics/icons/signal_reactor_electric_power.png"}
 	},
 	icon_size = 32,
 	subgroup = "reactor-signals",
@@ -62,7 +62,7 @@ data:extend({
 	icons =
 	{
 	  {icon = BLUE_BACKGROUND},
-	  {icon = "__RealisticReactors__/graphics/icons/signal_reactor_efficiency.png"}
+	  {icon = "__RealisticReactorsReloaded__/graphics/icons/signal_reactor_efficiency.png"}
 	},
 	icon_size = 32,
 	subgroup = "reactor-signals",
@@ -76,7 +76,7 @@ data:extend({
 	icons =
 	{
 	  {icon = BLUE_BACKGROUND},
-	  {icon = "__RealisticReactors__/graphics/icons/signal_cell_bonus.png"}
+	  {icon = "__RealisticReactorsReloaded__/graphics/icons/signal_cell_bonus.png"}
 	},
 	icon_size = 32,
 	subgroup = "reactor-signals",
@@ -90,7 +90,7 @@ data:extend({
 	icons =
 	{
 	  {icon = BLUE_BACKGROUND},
-	  {icon = "__RealisticReactors__/graphics/icons/signal_coolant_amount.png"}
+	  {icon = "__RealisticReactorsReloaded__/graphics/icons/signal_coolant_amount.png"}
 	},
 	icon_size = 32,
 	subgroup = "reactor-signals",
@@ -104,7 +104,7 @@ data:extend({
 	icons =
 	{
 	  {icon = GREY_BACKGROUND},
-	  {icon = "__RealisticReactors__/graphics/icons/signal_state.png"}
+	  {icon = "__RealisticReactorsReloaded__/graphics/icons/signal_state.png"}
 	},
 	icon_size = 32,
 	subgroup = "reactor-signals",
@@ -118,7 +118,7 @@ data:extend({
 	icons =
 	{
 	  {icon = YELLOW_BACKGROUND},
-	  {icon = "__RealisticReactors__/graphics/icons/signal_state.png"}
+	  {icon = "__RealisticReactorsReloaded__/graphics/icons/signal_state.png"}
 	},
 	icon_size = 32,
 	subgroup = "reactor-signals",
@@ -132,7 +132,7 @@ data:extend({
 	icons =
 	{
 	  {icon = GREEN_BACKGROUND},
-	  {icon = "__RealisticReactors__/graphics/icons/signal_state.png"}
+	  {icon = "__RealisticReactorsReloaded__/graphics/icons/signal_state.png"}
 	},
 	icon_size = 32,
 	subgroup = "reactor-signals",
@@ -146,7 +146,7 @@ data:extend({
 	icons =
 	{
 	  {icon = RED_BACKGROUND},
-	  {icon = "__RealisticReactors__/graphics/icons/signal_state.png"}
+	  {icon = "__RealisticReactorsReloaded__/graphics/icons/signal_state.png"}
 	},
 	icon_size = 32,
 	subgroup = "reactor-signals",
@@ -188,7 +188,7 @@ data:extend({
 	icons =
 	{
 	  {icon = ORANGE_BACKGROUND},
-	  {icon = "__RealisticReactors__/graphics/icons/signal_control_start.png"}
+	  {icon = "__RealisticReactorsReloaded__/graphics/icons/signal_control_start.png"}
 	},
 	icon_size = 32,
 	subgroup = "reactor-signals",
@@ -202,7 +202,7 @@ data:extend({
 	icons =
 	{
 	  {icon = ORANGE_BACKGROUND},
-	  {icon = "__RealisticReactors__/graphics/icons/signal_control_scram.png"}
+	  {icon = "__RealisticReactorsReloaded__/graphics/icons/signal_control_scram.png"}
 	},
 	icon_size = 32,
 	subgroup = "reactor-signals",
@@ -215,7 +215,7 @@ data:extend({
 	icons =
 	{
 	  {icon = BLUE_BACKGROUND},
-	  {icon = "__RealisticReactors__/graphics/icons/neighbours.png"}
+	  {icon = "__RealisticReactorsReloaded__/graphics/icons/neighbours.png"}
 	},
 	icon_size = 32,
 	subgroup = "reactor-signals",

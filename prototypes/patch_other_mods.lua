@@ -2,7 +2,7 @@ if data.raw.recipe["mixed-oxide"] and data.raw.recipe["mixed-oxide"].icon == "__
 	data:extend({{
     type = "item",
     name = "rr-clowns-mox-cell",
-    icon = "__RealisticReactors__/graphics/icons/mox_fuel_cell.png",
+    icon = "__RealisticReactorsReloaded__/graphics/icons/mox_fuel_cell.png",
     icon_size = 32,
     --flags = {"goes-to-main-inventory"},
     subgroup = "intermediate-product",
@@ -14,7 +14,7 @@ if data.raw.recipe["mixed-oxide"] and data.raw.recipe["mixed-oxide"].icon == "__
   }})
 
 
-	data.raw.recipe["mixed-oxide"].icon = "__RealisticReactors__/graphics/icons/clowns_mox_recipe.png"
+	data.raw.recipe["mixed-oxide"].icon = "__RealisticReactorsReloaded__/graphics/icons/clowns_mox_recipe.png"
 	data.raw.recipe["mixed-oxide"].results[1].name="rr-clowns-mox-cell"
 
 end

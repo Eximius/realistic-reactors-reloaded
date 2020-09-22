@@ -16,7 +16,7 @@ data:extend({
   {
     type = "item",
     name = "realistic-reactor",
-    icon = "__RealisticReactors__/graphics/icons/nuclear-reactor.png",
+    icon = "__RealisticReactorsReloaded__/graphics/icons/nuclear-reactor.png",
 	--icon  = "__base__/graphics/icons/nuclear-reactor.png",
 	icon_size = 32,
    -- flags = {"goes-to-quickbar"},
@@ -29,7 +29,7 @@ data:extend({
 --  {
 --    type = "item",
 --    name = "reactor-ruin",
---    icon = "__RealisticReactors__/graphics/icons/nuclear-reactor.png",
+--    icon = "__RealisticReactorsReloaded__/graphics/icons/nuclear-reactor.png",
 --	--icon  = "__base__/graphics/icons/nuclear-reactor.png",
 --	icon_size = 32,
 --   -- flags = {"goes-to-quickbar"},
@@ -42,7 +42,7 @@ data:extend({
     {
     type = "item",
     name = "breeder-reactor",
-    icon = "__RealisticReactors__/graphics/icons/breeder-reactor.png",
+    icon = "__RealisticReactorsReloaded__/graphics/icons/breeder-reactor.png",
 	--icon  = "__base__/graphics/icons/nuclear-reactor.png",
 	icon_size = 32,
    -- flags = {"goes-to-quickbar"},
@@ -55,7 +55,7 @@ data:extend({
   {
     type = "item",
     name = "rr-cooling-tower",
-    icon = "__RealisticReactors__/graphics/icons/cooling-tower.png",
+    icon = "__RealisticReactorsReloaded__/graphics/icons/cooling-tower.png",
 	icon_size = 32,
    -- flags = {"goes-to-quickbar"},
     subgroup = "energy",
@@ -67,7 +67,7 @@ data:extend({
   {
     type = "item",
     name = "reactor-sarcophagus",
-    icon = "__RealisticReactors__/graphics/icons/sarcophagus2.png",
+    icon = "__RealisticReactorsReloaded__/graphics/icons/sarcophagus2.png",
 	icon_size = 32,
    -- flags = {"goes-to-quickbar"},
     subgroup = "energy",

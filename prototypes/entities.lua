@@ -89,7 +89,7 @@ reactor_template =
 {
     type = "reactor",
     name = "realistic-reactor",
-	icon = "__RealisticReactors__/graphics/icons/nuclear-reactor.png",
+	icon = "__RealisticReactorsReloaded__/graphics/icons/nuclear-reactor.png",
     icon_size = 32,
 	order = "f[nuclear-energy]-a[reactor]",
     flags = {"placeable-neutral", "player-creation", "placeable-off-grid", "not-on-map","not-deconstructable","not-blueprintable"},
@@ -130,7 +130,7 @@ reactor_template =
 	--selection_box = {{-1.4, -3}, {1.4, 1.4}},
 	working_sound =
 	{
-		sound = { filename = "__RealisticReactors__/sound/reactor-active.ogg", volume = 0.6 },
+		sound = { filename = "__RealisticReactorsReloaded__/sound/reactor-active.ogg", volume = 0.6 },
 		idle_sound = { filename = "__base__/sound/idle1.ogg", volume = 0.6 },
 		apparent_volume = 1.5
 	},
@@ -139,7 +139,7 @@ reactor_template =
     --  layers =
     --  {
     --    --{
-	--	--  filename = "__RealisticReactors__/graphics/entity/nuclear-reactor.png",
+	--	--  filename = "__RealisticReactorsReloaded__/graphics/entity/nuclear-reactor.png",
     --    --  width = 140,
     --    --  height = 160,
     --    --  shift = {0.6875, -0.59375}
@@ -148,13 +148,13 @@ reactor_template =
     --},
     working_light_picture =
     {
-    --  filename = "__RealisticReactors__/graphics/entity/workinglight-yellow.png",
+    --  filename = "__RealisticReactorsReloaded__/graphics/entity/workinglight-yellow.png",
     --  width = 140,
     --  height = 160,
     --  shift = {0.6875, -0.59375},
 	--  priority = "extra-high",
     --  blend_mode = "additive"
-	  filename = "__RealisticReactors__/graphics/transparent32.png",
+	  filename = "__RealisticReactorsReloaded__/graphics/transparent32.png",
       width = 32,
       height = 32,
     },
@@ -202,7 +202,7 @@ reactor_template =
     {
       sheet =
       {
-        filename = "__RealisticReactors__/graphics/entity/reactor-connect-patches-empty.png",
+        filename = "__RealisticReactorsReloaded__/graphics/entity/reactor-connect-patches-empty.png",
         width = 32,
         height = 32,
         variation_count = 12
@@ -212,7 +212,7 @@ reactor_template =
     {
       sheet =
       {
-        filename = "__RealisticReactors__/graphics/entity/reactor-connect-patches-empty.png",
+        filename = "__RealisticReactorsReloaded__/graphics/entity/reactor-connect-patches-empty.png",
         width = 32,
         height = 32,
         variation_count = 12,
@@ -262,7 +262,7 @@ reactor_normal.energy_source.light_flicker ={
 											}
 reactor_normal.working_light_picture =
     {
-      filename = "__RealisticReactors__/graphics/entity/reactor-lights-color.png",
+      filename = "__RealisticReactorsReloaded__/graphics/entity/reactor-lights-color.png",
       width = 288,
       height = 348,
       shift = REACTOR_SHIFT,
@@ -285,14 +285,14 @@ reactor_normal.picture =
       {
         {
 
-		  filename = "__RealisticReactors__/graphics/entity/reactor_hr.png",
+		  filename = "__RealisticReactorsReloaded__/graphics/entity/reactor_hr.png",
           width = 288,
           height = 348,
 		  scale=0.3542,
           shift = REACTOR_SHIFT
         },
 		{
-		filename = "__RealisticReactors__/graphics/entity/reactor-shadow.png",
+		filename = "__RealisticReactorsReloaded__/graphics/entity/reactor-shadow.png",
 		width = 174,
 		height = 160,
 		shift = {1.2185, -0.59375},
@@ -302,7 +302,7 @@ reactor_normal.picture =
     }
 reactor_normal.heat_buffer.heat_picture =
       {
-        filename = "__RealisticReactors__/graphics/entity/reactor-heated.png",
+        filename = "__RealisticReactorsReloaded__/graphics/entity/reactor-heated.png",
         width = 288,
         height = 348,
         shift = REACTOR_SHIFT,
@@ -318,7 +318,7 @@ reactor_normal.heat_buffer.heat_picture =
       }
 reactor_normal.heat_buffer.heat_glow =
       {
-        filename = "__RealisticReactors__/graphics/entity/reactor-heat-glow.png",
+        filename = "__RealisticReactorsReloaded__/graphics/entity/reactor-heat-glow.png",
         priority = "extra-high",
         width = 288,
         height = 348,
@@ -330,13 +330,13 @@ reactor_normal.heat_buffer.heat_glow =
  -- display dummy for breeder reactor
 reactor_breeder = table.deepcopy(reactor_normal)
 reactor_breeder.name = "realistic-reactor-breeder"
-reactor_breeder.icon = "__RealisticReactors__/graphics/icons/breeder-reactor.png"
+reactor_breeder.icon = "__RealisticReactorsReloaded__/graphics/icons/breeder-reactor.png"
 reactor_breeder.minable = {mining_time = 1.5, result = "breeder-reactor"}
 reactor_breeder.placeable_by = { item="breeder-reactor", count = 1}
-reactor_breeder.picture.layers[1].filename = "__RealisticReactors__/graphics/entity/breeder_hr.png"
-reactor_breeder.heat_buffer.heat_glow.filename = "__RealisticReactors__/graphics/entity/breeder-heat-glow.png"
-reactor_breeder.heat_buffer.heat_picture.filename = "__RealisticReactors__/graphics/entity/breeder-heated.png"
-reactor_breeder.working_light_picture.filename = "__RealisticReactors__/graphics/entity/breeder-lights-color.png"
+reactor_breeder.picture.layers[1].filename = "__RealisticReactorsReloaded__/graphics/entity/breeder_hr.png"
+reactor_breeder.heat_buffer.heat_glow.filename = "__RealisticReactorsReloaded__/graphics/entity/breeder-heat-glow.png"
+reactor_breeder.heat_buffer.heat_picture.filename = "__RealisticReactorsReloaded__/graphics/entity/breeder-heated.png"
+reactor_breeder.working_light_picture.filename = "__RealisticReactorsReloaded__/graphics/entity/breeder-lights-color.png"
 reactor_breeder.light = BREEDER_GLOW
 reactor_breeder.energy_source.light_flicker ={
 											minimum_intensity=0.4,
@@ -361,14 +361,14 @@ table.insert(reactor_template.flags,  "no-automated-item-insertion")
 table.insert(reactor_template.flags,  "no-automated-item-removal")
 
 reactor_template.lower_layer_picture = table.deepcopy(reactor_normal.picture.layers[1])
-reactor_template.lower_layer_picture.filename = "__RealisticReactors__/graphics/entity/reactor-pipes.png"
+reactor_template.lower_layer_picture.filename = "__RealisticReactorsReloaded__/graphics/entity/reactor-pipes.png"
 
 reactor_template.heat_lower_layer_picture = table.deepcopy(reactor_normal.picture.layers[1])
-reactor_template.heat_lower_layer_picture.filename = "__RealisticReactors__/graphics/entity/reactor-pipes-heated.png"
+reactor_template.heat_lower_layer_picture.filename = "__RealisticReactorsReloaded__/graphics/entity/reactor-pipes-heated.png"
 if mods["heat_glow"] then
-	reactor_template.heat_lower_layer_picture.filename = "__RealisticReactors__/graphics/entity/reactor-pipes-heated-mod.png"
-	reactor_normal.heat_buffer.heat_picture.filename = "__RealisticReactors__/graphics/entity/reactor-heated-mod.png"
-	reactor_breeder.heat_buffer.heat_picture.filename = "__RealisticReactors__/graphics/entity/breeder-heated-mod.png"
+	reactor_template.heat_lower_layer_picture.filename = "__RealisticReactorsReloaded__/graphics/entity/reactor-pipes-heated-mod.png"
+	reactor_normal.heat_buffer.heat_picture.filename = "__RealisticReactorsReloaded__/graphics/entity/reactor-heated-mod.png"
+	reactor_breeder.heat_buffer.heat_picture.filename = "__RealisticReactorsReloaded__/graphics/entity/breeder-heated-mod.png"
 end
 -- Nuclear reactor x, running phase
 for i=1, 250 do
@@ -414,7 +414,7 @@ reactor_interface =
   {
     north =
     {
-      filename = "__RealisticReactors__/graphics/entity/nuclear-reactor-interface.png",
+      filename = "__RealisticReactorsReloaded__/graphics/entity/nuclear-reactor-interface.png",
       priority = "high",
       frame_count = 1,
       width = 32,
@@ -423,7 +423,7 @@ reactor_interface =
     },
     east =
     {
-      filename = "__RealisticReactors__/graphics/entity/nuclear-reactor-interface.png",
+      filename = "__RealisticReactorsReloaded__/graphics/entity/nuclear-reactor-interface.png",
       priority = "high",
       frame_count = 1,
       width = 32,
@@ -432,7 +432,7 @@ reactor_interface =
     },
     south =
     {
-      filename = "__RealisticReactors__/graphics/entity/nuclear-reactor-interface.png",
+      filename = "__RealisticReactorsReloaded__/graphics/entity/nuclear-reactor-interface.png",
       priority = "high",
       frame_count = 1,
       width = 32,
@@ -441,7 +441,7 @@ reactor_interface =
     },
     west =
     {
-      filename = "__RealisticReactors__/graphics/entity/nuclear-reactor-interface.png",
+      filename = "__RealisticReactorsReloaded__/graphics/entity/nuclear-reactor-interface.png",
       priority = "high",
       frame_count = 1,
       width = 32,
@@ -482,10 +482,10 @@ reactor_interface =
 
 local breeder_interface = table.deepcopy(reactor_interface)
 breeder_interface.name = "realistic-breeder-interface"
-breeder_interface.sprites.north.filename = "__RealisticReactors__/graphics/entity/breeder-interface.png"
-breeder_interface.sprites.east.filename = "__RealisticReactors__/graphics/entity/breeder-interface.png"
-breeder_interface.sprites.south.filename = "__RealisticReactors__/graphics/entity/breeder-interface.png"
-breeder_interface.sprites.west.filename = "__RealisticReactors__/graphics/entity/breeder-interface.png"
+breeder_interface.sprites.north.filename = "__RealisticReactorsReloaded__/graphics/entity/breeder-interface.png"
+breeder_interface.sprites.east.filename = "__RealisticReactorsReloaded__/graphics/entity/breeder-interface.png"
+breeder_interface.sprites.south.filename = "__RealisticReactorsReloaded__/graphics/entity/breeder-interface.png"
+breeder_interface.sprites.west.filename = "__RealisticReactorsReloaded__/graphics/entity/breeder-interface.png"
 
 
 -- ECCS entity for nuclear reactor
@@ -633,7 +633,7 @@ reactor_power_breeder.icon_size = reactor_breeder.icon_size
 reactor_ruin = {
     type = "simple-entity-with-owner",
     name = "reactor-ruin",
-	icon = "__RealisticReactors__/graphics/icons/nuclear-reactor.png",
+	icon = "__RealisticReactorsReloaded__/graphics/icons/nuclear-reactor.png",
     icon_size = 32,
 	max_health = 1000,
 	order = "f[nuclear-energy]-a[reactor]",
@@ -647,7 +647,7 @@ reactor_ruin = {
 	fast_replaceable_group = "reactor-ruins",	
 	picture =
 	{ 
-		filename = "__RealisticReactors__/graphics/entity/reactor_ruin.png",
+		filename = "__RealisticReactorsReloaded__/graphics/entity/reactor_ruin.png",
 		width = 174,
 		height = 160,
 		shift = {1.2185, -0.59375},
@@ -664,21 +664,21 @@ end
 
 breeder_ruin = table.deepcopy(reactor_ruin)
 breeder_ruin.name = "breeder-ruin"
-breeder_ruin.icon = "__RealisticReactors__/graphics/icons/breeder-reactor.png"
+breeder_ruin.icon = "__RealisticReactorsReloaded__/graphics/icons/breeder-reactor.png"
 --breeder_ruin.minable = {hardness=999999, mining_time = 999999, result = "breeder-reactor"}
 --if settings.startup["meltdown-mode"].value == "meltdown with ruin" then
 --	breeder_ruin.minable = {hardness=1, mining_time = 4, result = nil}
 --end
 breeder_ruin.pictures ={layers={
 {
-	filename = "__RealisticReactors__/graphics/entity/breeder_ruin.png",
+	filename = "__RealisticReactorsReloaded__/graphics/entity/breeder_ruin.png",
 	width = 174,
 	height = 160,
 	shift = {1.2185, -0.59375},
 	frame_count=1
 },
 {
-	filename = "__RealisticReactors__/graphics/entity/breeder_ruin.png",
+	filename = "__RealisticReactorsReloaded__/graphics/entity/breeder_ruin.png",
 	width = 174,
 	height = 160,
 	shift = {1.8185, -0.19375},
@@ -689,14 +689,14 @@ breeder_ruin.pictures ={layers={
 
 sarcophagus = table.deepcopy(reactor_ruin)
 sarcophagus.name = "reactor-sarcophagus"
-sarcophagus.icon = "__RealisticReactors__/graphics/icons/sarcophagus2.png"
+sarcophagus.icon = "__RealisticReactorsReloaded__/graphics/icons/sarcophagus2.png"
 sarcophagus.flags = {"player-creation", "not-blueprintable", "not-repairable"}
 sarcophagus.minable = {mining_time = 1, result = "reactor-sarcophagus"}
 sarcophagus.collision_box = {{-2.2, -2.1}, {2.2, 2.1}}
 sarcophagus.selection_box = {{-2.3, -2.4}, {2.1, 2.0}}
 sarcophagus.picture ={layers={
 {
-	filename = "__RealisticReactors__/graphics/entity/sarcophagus2.png",
+	filename = "__RealisticReactorsReloaded__/graphics/entity/sarcophagus2.png",
 	width = 1024,
 	height = 768,
 	shift = {-0.1, -0.4},
@@ -704,7 +704,7 @@ sarcophagus.picture ={layers={
 	scale=0.19
 },
 {
-	filename = "__RealisticReactors__/graphics/entity/sarcophagus2-shadow.png",
+	filename = "__RealisticReactorsReloaded__/graphics/entity/sarcophagus2-shadow.png",
 	width = 1024,
 	height = 768,
 	shift = {0.8, -0.07},
@@ -720,7 +720,7 @@ cooling_tower =
 {
   type = "furnace",
   name = "rr-cooling-tower",
-  icon = "__RealisticReactors__/graphics/icons/cooling-tower.png",
+  icon = "__RealisticReactorsReloaded__/graphics/icons/cooling-tower.png",
   icon_size = 32,
   flags = {"placeable-neutral", "placeable-player", "player-creation"},
   minable = {hardness = 0.2, mining_time = 0.5, result = "rr-cooling-tower"},
@@ -781,14 +781,14 @@ cooling_tower =
 	  layers=
 	  {
 		{
-			filename = "__RealisticReactors__/graphics/entity/cooling-tower.png",
+			filename = "__RealisticReactorsReloaded__/graphics/entity/cooling-tower.png",
 			width = 140,
 			height = 160,
 			frame_count = 1,
 			shift = {0.6875, -0.59375},
 			hr_version =
 			{
-				filename = "__RealisticReactors__/graphics/entity/cooling-tower-hr.png",
+				filename = "__RealisticReactorsReloaded__/graphics/entity/cooling-tower-hr.png",
 				width = 308,
 				height = 310,
 				frame_count = 1,
@@ -797,7 +797,7 @@ cooling_tower =
 			}
 		},
 		{
-			filename = "__RealisticReactors__/graphics/entity/cooling-tower-hr-shadow.png",
+			filename = "__RealisticReactorsReloaded__/graphics/entity/cooling-tower-hr-shadow.png",
 			width = 308,
 			height = 310,
 			frame_count = 1,
@@ -997,7 +997,7 @@ data:extend({
       shift = {-0.53125, -0.4375},
       priority = "high",
       animation_speed = 0.25,
-      filename = "__RealisticReactors__/graphics/smoke.png",
+      filename = "__RealisticReactorsReloaded__/graphics/smoke.png",
       --flags = { "smoke" }
     }
 	},
