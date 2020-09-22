@@ -4,7 +4,6 @@ if data.raw.recipe["mixed-oxide"] and data.raw.recipe["mixed-oxide"].icon == "__
     name = "rr-clowns-mox-cell",
     icon = "__RealisticReactorsReloaded__/graphics/icons/mox_fuel_cell.png",
     icon_size = 32,
-    --flags = {"goes-to-main-inventory"},
     subgroup = "intermediate-product",
     order = "r[uranium-processing]-a[uranium-fuel-cell]",
     fuel_category = "nuclear",

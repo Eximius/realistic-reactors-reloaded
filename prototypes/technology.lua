@@ -31,9 +31,9 @@ data:extend({
 })
 
 -- insert recipes in technology
-  table.insert(data.raw["technology"]["nuclear-power"].effects, {type = "unlock-recipe", recipe = "realistic-reactor"})
-  table.insert(data.raw["technology"]["nuclear-power"].effects, {type = "unlock-recipe", recipe = "rr-cooling-tower"})
-  if settings.startup["meltdown-mode"].value == "meltdown with ruin + sarcophagus" then
-	table.insert(data.raw["technology"]["nuclear-power"].effects, {type = "unlock-recipe", recipe = "reactor-sarcophagus"})
-  end
+table.insert(data.raw["technology"]["nuclear-power"].effects, {type = "unlock-recipe", recipe = "realistic-reactor"})
+table.insert(data.raw["technology"]["nuclear-power"].effects, {type = "unlock-recipe", recipe = "rr-cooling-tower"})
+if settings.startup["meltdown-mode"].value == "meltdown with ruin + sarcophagus" then
+  table.insert(data.raw["technology"]["nuclear-power"].effects, {type = "unlock-recipe", recipe = "reactor-sarcophagus"})
+end
 
