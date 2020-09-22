@@ -6,5 +6,8 @@
 	"description": "This is a continuation of the RealisticReactors mod. Includes bug fixes, improvements and changes.\n\nThis mod adds a more realistic nuclear reactor, a breeder reactor and a cooling tower. The reactors are controllable via an integrated circuit interface, and have a dynamic output depending on their temperature. They need proper cooling, otherwise a nuclear meltdown will occur.",
 	"homepage": "https://forums.factorio.com/viewtopic.php?f=93&t=56621",
 	"factorio_version": "1.0",
-	"dependencies": ["base"]
+	"dependencies": [
+		"base",
+		"! RealisticReactors"
+	]
 }
