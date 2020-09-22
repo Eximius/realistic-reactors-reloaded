@@ -8,6 +8,7 @@
 	"factorio_version": "1.0",
 	"dependencies": [
 		"base",
-		"! RealisticReactors"
+		"! RealisticReactors",
+		"? Clowns-Nuclear"
 	]
 }
