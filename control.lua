@@ -14,7 +14,7 @@ CHANGE_MULTIPLIER = 0.2
 	-- used to multiply the temperature change 
 	-- CHANGE_MULTIPLIER and TICKS_PER_UPDATE work together and are balanced: 
 	-- 0.2 CHANGE_MULTIPLIER = 15 TICKS_PER_UPDATE
-REACTOR_MASS = 6000	--increased from 4000 because of the reactor output nerf
+REACTOR_MASS = 6000
 	-- used to calculate temperature changes when emergency cooling is used
 	-- the mass is an estimate best guess based on many tries and errors 
 BONUS_CELL_MULTIPLIER = 0.5
@@ -22,7 +22,7 @@ BONUS_CELL_MULTIPLIER = 0.5
 	-- BONUS_CELL_MULTIPLIER=1 and bonus_cell_Production=100 means 1 additional empty cell per minute
 POWER_USAGE_STARTING=3600000 -- 3600 KW
 POWER_USAGE_INTERFACE=200000 -- 200 KW
-POWER_USAGE_COOLING=1000000 -- 1 MW when when reactor was cooled (static) or 1 MW per 20 MW cooling (non-static)
+POWER_USAGE_COOLING=1000000 -- 1 MW when reactor was cooled (static) or 1 MW per 20 MW cooling (non-static)
 	-- electric power usage of the reactor
 
 -- entity names
@@ -40,6 +40,7 @@ TOWER_ENTITY_NAME = "rr-cooling-tower"
 STEAM_ENTITY_NAME = "rr-cooling-tower-steam"
 HEAT_PIPE_ENTITY_NAME = "heat-pipe"
 RUIN_SMOKE_NAME = "ruin-smoke"
+
 --signal names
 SIGNAL_CORE_TEMP = {type="virtual", name="signal-reactor-core-temp"}
 SIGNAL_STATE_STOPPED = {type="virtual", name="signal-state-stopped"}

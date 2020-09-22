@@ -8,22 +8,13 @@ data:extend(
 		default_value = true,
 		order="a1",
 		per_user = false,
-	}, 
-	-- {
-		-- type = "string-setting",
-		-- name = "sarcophagus-mode", --previously: "fallout-behaviour"
-		-- setting_type = "startup",
-		-- default_value = "reactor ruins",
-		-- allowed_values = {"no ruins", "reactor ruins","ruins + sarcophagus"}, --previously: {"no fallout", "regular fallout","fallout with sarcophagus"},
-		-- order="a2",
-		-- per_user = false,
-	-- },	
+	},
 	{
 		type = "string-setting",
-		name = "meltdown-mode", --previously: "sarcophagus-mode"
+		name = "meltdown-mode",
 		setting_type = "startup",
 		default_value = "meltdown with ruin + sarcophagus",
-		allowed_values = {"no meltdown","meltdown without ruin","meltdown with ruin","meltdown with ruin + sarcophagus"}, --previously: {"no fallout", "regular fallout","fallout with sarcophagus"},
+		allowed_values = {"no meltdown","meltdown without ruin","meltdown with ruin","meltdown with ruin + sarcophagus"},
 		order="a2",
 		per_user = false,
 	},	
@@ -87,16 +78,16 @@ data:extend(
 	},  		
 	{
 		type = "int-setting",
-		name = "sarcophagus-duration", --previously: "fallout-behaviour"
+		name = "sarcophagus-duration", 
 		setting_type = "startup",
-		--default_value = "timed sarcophagus",
-		--allowed_values = {"no ruins", "timed sarcophagus","eternal sarcophagus"}, --previously: {"no fallout", "regular fallout","fallout with sarcophagus"},
 		default_value = 1800,
 		minimum_value = 1,
 		maximum_value = 9999999,
 		order="a9",
 		per_user = false,
 	},	
+
+
  	-- runtime settings
     {
 		type = "string-setting",
@@ -108,7 +99,7 @@ data:extend(
 	},	
 	{
 		type = "bool-setting",
-		name = "manually-check-neighbours",--"disable-neighbour-check",
+		name = "manually-check-neighbours",
 		setting_type = "runtime-global",
 		default_value = false,
 		order="b2",
